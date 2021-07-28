@@ -1,3 +1,10 @@
+/**
+ * Retrieve the longest word in the array of strings 'arr'
+ * 
+ * @param {Array.<string>} arr 
+ * 
+ * @returns {string} the longest word in the array 'arr'
+ */
 function longestInList(arr){
     let longest = arr[0]
 

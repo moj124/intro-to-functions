@@ -1,4 +1,11 @@
 
+/**
+ * returns the censored version of the 'string' based on the array 'arr'
+ * 
+ * @param {string} string the input sentence to censor
+ * @param {Array.<string>} arr the list of banned words for the 'string'
+ * @returns the string of added censoring of banned words in 'string' 
+ */
 function censorMessage(string,arr){
     let rawWords = string.split(' ')
     let scrubbedWords = []
